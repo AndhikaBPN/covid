@@ -1,0 +1,68 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url(covid.jpeg);
+    background-size: cover;
+    background-position: -20px 0px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(180, 180, 180);
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.avatar{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -20%;
+    left: calc(50% - 50px);
+}
+
+.box h2{
+    font-size: 30px;
+}
+
+.box{
+    width: 320px;
+    height: 320px;
+    background: rgb(255, 255, 255);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 40px 20px;
+    border-radius: 10%;
+}
+
+.box input[type="text"], input[type="password"]{
+    border: none;
+    border-bottom: 2px solid #000000;
+    background: transparent;
+    outline: none;
+    height: 30px;
+    font-size: 15px;
+}
+
+.box input[type="submit"]{
+    border: none;
+    outline: none;
+    width: 90px;
+    height: 28px;
+    background: #96b0be;
+    color: rgb(168, 29, 29);
+    font-size: 15px;
+}
